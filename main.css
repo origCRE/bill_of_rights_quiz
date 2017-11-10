@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.answers li {
+	list-style: upper-alpha;
+}
+
+#submit {
+	background: gray;
+	color: black;
+	padding: 5px;
+	text-align: center;
+	width: 400px;
+	cursor: pointer;
+	border: 1px solid black;
+}
